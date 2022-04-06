@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Rowdies:wght@300&display=swap" rel="stylesheet">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="/Assets/title.png" alt="" id="headline-board">
+        <div class="input-container">
+            <div class="notbook-row row-first-wrapper">
+                <form action="" id="form">
+                    
+                    <label for="" id="task-details-label" >Task Details:</label>
+                    <textarea cols="30" rows="2" id="task-details-input"></textarea>
+
+                    <label for="" id="label-date">Date:</label>
+                    <input required type="date" id="date-input-box">
+                    
+                    <label for="" id="label-time">Time:</label>
+                    <input required type="time" id="time-input-box">
+
+                    <div class="buttons-placement">
+                        <button type="submit" id="save-button" >Save</button>
+                        <button type="reset" id="reset-button">Reset</button>
+                    </div>
+                </form>
+                <img src="/Assets/formbg.jpg" alt="" width="700px" height="70px">
+                <div class="first square"></div>
+            </div>
+
+            <div class="notbook-row row-second-wrapper">
+                <img src="/Assets/formbg.jpg" alt="" width="700px" height="70px">
+            </div>
+
+            <div class="notbook-row row-third-wrapper">
+                <img src="/Assets/formbg.jpg" alt="">
+            </div>
+            
+         
+
+        </div>
+        <div class="notes-container" id="notes-container">
+            
+        </div>
+            
+        
+    <script src="main.js"></script>
+</body>
+
+</html>
